@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>notsxbas.me</title>
+    <link rel="canonical" href="https://notsxbas.me/" />
+    <meta name="description" content="Página principal de notsxbas.me" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='rgb(102,126,234)'/><text x='32' y='38' font-family='Inter,system-ui' font-size='32' fill='white' font-weight='700' text-anchor='middle'>N</text></svg>"
+    />
+    <meta name="theme-color" content="#667eea" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Ambient Orbs -->
+    <div class="orb orb-1" aria-hidden="true"></div>
+    <div class="orb orb-2" aria-hidden="true"></div>
+    <div class="orb orb-3" aria-hidden="true"></div>
+
+    <!-- Main -->
+    <main role="main">
+      <!-- Hero Section -->
+      <section class="hero" style="text-align: center; padding: 4rem 2rem">
+        <h1
+          style="
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            line-height: 1.1;
+          "
+        >
+          <strong>notsxbas</strong>
+        </h1>
+        <p
+          style="
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.6;
+          "
+        >
+          Bienvenido a mi página personal.
+        </p>
+        
+        <!-- Buttons Container -->
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: center;">
+          <!-- Chat Button -->
+          <a
+            href="https://chatgeneral-ul1z.onrender.com/"
+            id="chatBtn"
+            style="
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 1rem;
+              padding: 1.5rem 3.5rem;
+              background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(102, 126, 234, 0.15) 100%);
+              border: 2px solid rgba(102, 126, 234, 0.5);
+              border-radius: var(--radius-xl);
+              color: var(--text-primary);
+              text-decoration: none;
+              font-weight: 700;
+              font-size: 1.3rem;
+              transition: all var(--transition-normal);
+              box-shadow: 0 12px 32px rgba(102, 126, 234, 0.2);
+              cursor: pointer;
+            "
+            onmouseover="this.style.background='linear-gradient(135deg, rgba(102, 126, 234, 0.4) 0%, rgba(102, 126, 234, 0.25) 100%)'; this.style.borderColor='rgba(102, 126, 234, 0.7)'; this.style.transform='translateY(-6px)'; this.style.boxShadow='0 16px 48px rgba(102, 126, 234, 0.35)';"
+            onmouseout="this.style.background='linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(102, 126, 234, 0.15) 100%)'; this.style.borderColor='rgba(102, 126, 234, 0.5)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 12px 32px rgba(102, 126, 234, 0.2)';"
+          >
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+            Chat
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer style="margin-top: auto; border-top: 1px solid var(--glass-border); padding: 3rem 2rem 2rem">
+      <div style="max-width: 1280px; margin: 0 auto">
+        <!-- Support Card -->
+        <div style="display: flex; justify-content: center; margin-bottom: 3rem">
+          <div
+            style="
+              padding: 0.75rem 1.5rem;
+              background: rgba(102, 126, 234, 0.1);
+              border: 1px solid rgba(102, 126, 234, 0.2);
+              border-radius: var(--radius-md);
+              display: inline-flex;
+              align-items: center;
+              gap: 0.75rem;
+              max-width: 100%;
+            "
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 16v-4M12 8h.01" />
+            </svg>
+            <span style="color: var(--text-secondary); font-size: 0.95rem;">
+              ¿Necesitas ayuda?
+            </span>
+            <a href="mailto:contacto@notsxbas.me" style="
+                color: var(--text-primary);
+                text-decoration: none;
+                font-weight: 600;
+                border-bottom: 1px solid rgba(102, 126, 234, 0.5);
+                transition: all var(--transition-fast);
+                white-space: nowrap;
+              " onmouseover="this.style.borderBottomColor='rgba(102, 126, 234, 1)'; this.style.color='rgba(102, 126, 234, 1)';" onmouseout="this.style.borderBottomColor='rgba(102, 126, 234, 0.5)'; this.style.color='var(--text-primary)';">
+              Contacta aquí
+            </a>
+          </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div style="text-align: center; padding-top: 2rem; border-top: 1px solid var(--glass-border-subtle)">
+          <p
+            style="
+              color: var(--text-tertiary);
+              font-size: 0.875rem;
+              margin: 0 0 0.5rem;" ></p>
+          <p style="color: var(--text-muted); font-size: 0.8125rem; margin: 0">
+            © 2025 - notsxbas
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        "use strict";
+
+        // ═══════════════════════════════════════════════════════════
+        // PERFORMANCE: Reduce animations if preferred
+        // ═══════════════════════════════════════════════════════════
+
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        );
+
+        if (prefersReducedMotion.matches) {
+          document.documentElement.style.setProperty(
+            "--transition-fast",
+            "0.05s",
+          );
+          document.documentElement.style.setProperty(
+            "--transition-normal",
+            "0.1s",
+          );
+          document.documentElement.style.setProperty(
+            "--transition-slow",
+            "0.15s",
+          );
+        }
+
+        // ═══════════════════════════════════════════════════════════
+        // FOCUS TRAP FOR ACCESSIBILITY
+        // ═══════════════════════════════════════════════════════════
+        const focusableElements =
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Tab") {
+            const focusable = Array.from(
+              document.querySelectorAll(focusableElements),
+            );
+            const firstFocusable = focusable[0];
+            const lastFocusable = focusable[focusable.length - 1];
+
+            if (e.shiftKey && document.activeElement === firstFocusable) {
+              e.preventDefault();
+              lastFocusable.focus();
+            } else if (
+              !e.shiftKey &&
+              document.activeElement === lastFocusable
+            ) {
+              e.preventDefault();
+              firstFocusable.focus();
+            }
+          }
+        });
+
+        // ═══════════════════════════════════════════════════════════
+        // CONSOLE STYLING
+        // ═══════════════════════════════════════════════════════════
+        console.log(
+          "%c Panel de notsxbas ",
+          "background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); color: #fff; padding: 10px 20px; font-size: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);",
+        );
+        console.log(
+          "%c Sistema cargado correctamente ✓ ",
+          "color: rgba(255,255,255,0.7); font-size: 12px; padding: 4px 0;",
+        );
+      })();
+    </script>
+
+    <style>
+      /* Solución para advertencia H1UserAgentFontSizeInSection */
+      section h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      @media (max-width: 768px) {
+        section h1 {
+          font-size: 2rem;
+        }
+      }
+
+      /* Mejoras para la interfaz */
+      .hero {
+        margin-bottom: 4rem;
+      }
+
+      .chip {
+        transition: all var(--transition-normal) !important;
+      }
+      .chip:hover {
+        background: var(--glass-bg-strong) !important;
+        border-color: var(--glass-border-strong) !important;
+        transform: scale(1.05) !important;
+      }
+    </style>
+  </body>
+</html>
